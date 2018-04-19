@@ -1,0 +1,22 @@
+{
+	"todos": [
+		{
+			"id": 1,
+			"title": "Learn React!",
+			"description": "How to handle state, props, component lifecycle, state management",
+			"isDone": false
+		},
+		{
+			"id": 2,
+			"title": "React Training",
+			"description": "React Training on 6.4.2018 (9-16).",
+			"isDone": false
+		},
+		{
+			"id": 3,
+			"title": "Do laundry",
+			"description": "Laundry day on 7.4.2018",
+			"isDone": false
+		}
+	]
+}
