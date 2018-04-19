@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-class TodoControls extends Component {
+class AddTodo extends Component {
 	static propTypes = {
 		addTodo: PropTypes.func.isRequired,
 	}
@@ -69,4 +69,4 @@ class TodoControls extends Component {
 	}
 }
 
-export default TodoControls;
+export default AddTodo;

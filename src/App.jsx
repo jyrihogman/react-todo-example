@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TodoList from './TodoExample/TodoList';
-import TodoControls from './TodoExample/TodoControls';
+import AddTodo from './TodoExample/AddTodo';
 import AppBar from './TodoExample/AppBar';
 
 import './TodoApp.css';
@@ -94,10 +94,10 @@ export default class App extends Component {
 			<div>
 				<AppBar deleteAllTodos={this.deleteAllTodos} />
 				<div>
-					<TodoControls addTodo={this.addTodo} />
+					<AddTodo addTodo={this.addTodo} />
 				</div>
 				<div>
-					{this.state.todos.length === 0 ?
+					{!this.state.todos.length ?
 						null
 						:
 						<TodoList todos={this.state.todos} deleteTodo={this.deleteTodo} setTodoDone={this.setTodoDone} />

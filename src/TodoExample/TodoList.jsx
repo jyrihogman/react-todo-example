@@ -9,10 +9,7 @@ const TodoList = (props) => {
 			deleteTodo={props.deleteTodo}
 			setTodoDone={props.setTodoDone}
 			key={todo.id}
-			id={todo.id}
-			isDone={todo.isDone}
-			title={todo.title}
-			description={todo.description}
+			{...todo}
 		/>
 	));
 
